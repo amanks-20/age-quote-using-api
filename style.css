@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  /* background: content-box radial-gradient(#cfcfcf, #fdfdfd); */
+  background-image: url(https://image.freepik.com/free-vector/blue-sky-abstract-light-background_1182-1758.jpg);
+  background-size: cover;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.6em;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+button{
+    font-size: 1.5em;
+    animation-delay: 0.6s;
+    box-shadow: 0 4px 4px 0 #000000cb, 0 4px 4px 0 #00000065;
+    padding: 0.4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 0.3em;
+}
+
+.s1 {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.s2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  padding-top: 5%;
+  align-items: center;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.glow {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+#author {
+  padding-top: 0.4%;
+}
+
+
+
+span {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  animation: light 3s infinite;
+}
+
+@keyframes light {
+  0%,
+  20% {
+    color: #1572a1;
+    text-shadow: 0 0 10px #1572a1;
+  }
+  40% {
+    color: #1c6dd0;
+    text-shadow: 0 0 10px #1c6dd0;
+  }
+  60% {
+    color: #053742;
+    text-shadow: 0 0 10px #053742;
+  }
+  80% {
+    color: #39a2db;
+    text-shadow: 0 0 10px #39a2db;
+  }
+  100% {
+    color: #0095e6;
+    text-shadow: 0 0 10px #0095e6;
+  }
+}
+span:nth-child(1) {
+  animation-delay: 0.4s;
+}
+span:nth-child(2) {
+  animation-delay: 0.8s;
+}
+span:nth-child(3) {
+  animation-delay: 1.2s;
+}
+
+@media (max-width: 737px)  {
+
+    body {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(5px);
+        background: content-box radial-gradient(#cfcfcf, #fdfdfd);
+      }
+
+    h2{
+        font-size: 0.7em;
+    }
+    p {
+        font-size: 0.2em;
+        letter-spacing: 1px;
+        margin-bottom: 8%;
+      }
+
+      .s1 {
+        align-items: center;
+        text-align: center;
+        padding-top: 8%;
+      }
+      
+      .s2 {
+        margin-left: 4%;
+        margin-right: 4%;
+      }
+
+      .glow {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+      }
+      button{
+        font-size: 1em;
+        animation-delay: 0.6s;
+        box-shadow: 0 4px 4px 0 #000000cb, 0 4px 4px 0 #00000065;
+        padding: 1%;
+    }
+}
