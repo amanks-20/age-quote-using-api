@@ -1,4 +1,4 @@
-# age-quotes-using-api
+# age-quote-using-api
 
 https://amanks-20.github.io/age-quotes-using-api/
 
